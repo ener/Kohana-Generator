@@ -21,7 +21,7 @@
 ?>
 <?php switch(get_class($field)) {
 	case 'Field_Text':
-	echo "\t" . '<?php echo Core_Forms::textarea(\'' . $field->name . '\', $'.$model . '->' . $field->name . ', ' . $label . ', $errors, false);?>;' . "\n";
+	echo "\t" . '<?php echo Core_Forms::text_area(\'' . $field->name . '\', $'.$model . '->' . $field->name . ', ' . $label . ', $errors, false);?>;' . "\n";
 	break;
 
 	case 'Field_String':
