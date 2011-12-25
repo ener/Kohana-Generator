@@ -35,5 +35,6 @@
 		break;
  } ?>
 <?php endforeach;?>
+<?php echo '<?php echo Form::button(NULL, \'СОХРАНИТЬ\', array(\'id\' => \'save\')) ?>' . "\n"; ?>
 <?php echo '<?php echo Form::close() ?>'; ?>
 
